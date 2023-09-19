@@ -1,0 +1,13 @@
+.dashboard-container {
+    padding: 3rem;
+    width: 100%;
+}
+
+.dashboard-container .dashboard-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+}

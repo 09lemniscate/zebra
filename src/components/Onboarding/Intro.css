@@ -1,0 +1,98 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem auto;
+    position: relative;
+}
+.intro .intro-form {
+    display: flex;
+    flex-direction: column;
+}
+.intro .intro-form label {
+    font-size: 1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 8px;
+}
+.react-date-picker__wrapper {
+    border: none !important;
+}
+.intro .intro-form .languages .lang {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 12px;
+}
+.intro .intro-form .languages .lang label {
+    width: 80px;
+}
+.intro .intro-form .input-field {
+    width: 617px;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid #DDD;
+}
+.intro .intro-form .input-field-1 {
+    width: 200px;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid #DDD;
+}
+.intro .intro-form .input-field:focus {
+    border: 2px solid #FFE5A2;
+  }
+
+.intro .intro-form .btn-grp {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro .intro-form .btn-grp .btn {
+    padding: 6px 12px;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #EFEFEF;
+    background: #FFF;
+}
+.intro .intro-form .btn-grp .btn.active {
+    background:#FFE5A2;
+}
+.btn-next {
+    border-radius: 12px;
+    background: #121212;
+    width: 617px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+.green {
+    background: #21a621;
+    color: #000;
+}
+.btn-add {
+    border-radius: 12px;
+    background: #D9D9D9;
+    width: 617px;
+    height: 48px;
+    border: none;
+    color: #000;
+    margin-top: 2rem;
+}
+.form-control-grp {
+    display: flex;
+    gap: 1rem;
+}
+.parent-div {
+    display: flex;
+    flex-direction: column;
+}
+.marign-auto {
+    margin: auto;
+}
+.gap {
+    gap: 2rem;
+}

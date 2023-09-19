@@ -1,0 +1,33 @@
+.section-emp-1 {
+    background: #124D34;
+    padding: 4rem;
+    text-align: center;
+}
+.section-emp-1 h1 {
+    color: #fff;
+    
+}
+.section-emp-1 .text-p p {
+    color: #fff;
+    padding: 0.2rem;
+}
+.section-emp-1 .text-p {
+    padding: 2rem 0;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.section-2 img.line {
+    width: 208px;
+}
+.section-2 img.plane {
+    width: 100px;
+}
+.section-2 h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}

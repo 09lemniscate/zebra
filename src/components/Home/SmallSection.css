@@ -1,0 +1,26 @@
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+}
+.section-1 img {
+    width: 413px;
+    height: 357px;
+}
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.section-2 img.line {
+    width: 208px;
+}
+.section-2 img.plane {
+    width: 100px;
+}
+.section-2 h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}

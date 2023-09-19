@@ -1,0 +1,60 @@
+.job-container {
+    display: flex;
+    position: relative;
+    padding-left: 4rem;
+}
+.display-text {
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 2rem;
+}
+.display-text h2 {
+    line-height: 1.4;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.name-job {
+    color: #FFCB45;
+    font-style: italic;
+}
+.display-text .text-1 {
+    padding-bottom: 2rem;
+}
+.display-text .text-1 p {
+    font-size: 1rem;
+}
+.image-card {
+    width: 50%;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.image-card img {
+    width: 100%;
+}
+
+
+.small-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    position: relative;
+    margin-top: -1rem;
+    z-index: 2;
+}
+.small-section .card {
+    width: 302px;
+    height: 202px;
+    border-radius: 12px;
+    border: 1px solid #121212;
+    background: #FFF;
+    padding: 2rem;
+}
+.card .img-sec {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.card .text-1 {
+    padding-bottom: 1rem;
+}
